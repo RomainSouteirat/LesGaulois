@@ -40,7 +40,6 @@ public class Gaulois {
 		System.out.println(asterix);
 		System.out.println(asterix.prendreParole());
 		System.out.println(asterix.parler("je parle"));
-		asterix.frapper(null);
 
 	}
 	
