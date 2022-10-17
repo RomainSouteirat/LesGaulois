@@ -31,10 +31,7 @@ public class Romain {
 		}
 	}
 	public static void main(String[] args) {
-		Romain minus = new Gaulois("Minus", 8);
-		System.out.println(asterix);
-		System.out.println(asterix.prendreParole());
-		System.out.println(asterix.parler("je parle"));
+		Romain minus = new Romain("Minus", 6);
 	
 	}
 }
