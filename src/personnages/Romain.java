@@ -34,9 +34,6 @@ public class Romain {
 	}
 	public static void main(String[] args) {
 		Romain minus = new Romain("Minus", 6);
-		minus.recevoirCoup(3);
-		minus.recevoirCoup(3);
-		minus.recevoirCoup(3);
-		minus.recevoirCoup(3);
+		System.out.println(Equipement.BOUCLIER);
 	}
 }
