@@ -10,7 +10,7 @@ public class Scenario {
 		Gaulois asterix = new Gaulois("Astérix", 8);
 		Gaulois obelix = new Gaulois("Astérix", 16);
 		Romain minus = new Romain("Minus", 6);
-		Druide panoramix = new Druide("panoramix", 5, 5);
+		Druide panoramix = new Druide("panoramix", 5, 10);
 		
 		panoramix.parler("Je vais aller préparer une petite potion...");
 		panoramix.preparerPotion();

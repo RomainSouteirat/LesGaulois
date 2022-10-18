@@ -40,9 +40,4 @@ public class Gaulois {
 		parler("Merci Druide, je sens que ma force est 3 fois décuplée");
 		}
 	}
-	
-	public static void main(String[] args) {
-		Gaulois asterix = new Gaulois("Astérix", 8);
-		}
-	
 }
