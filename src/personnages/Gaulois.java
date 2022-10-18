@@ -3,7 +3,7 @@ package personnages;
 public class Gaulois {
 	private String nom;
 	private int force;
-	private int effetPotion =1;
+	public int effetPotion =1;
 	
 	public Gaulois(String nom, int force) {
 		this.nom = nom;
@@ -25,7 +25,7 @@ public class Gaulois {
 	public void frapper(Romain romain) {
 		System.out.println(nom + " envoie un grand coup dans la mâchoire de "
 				+ romain.getNom());
-		romain.recevoirCoup(force / 3);
+		romain.recevoirCoup(effetPotion * force / 3);
 	}
 	
 	@Override
@@ -34,9 +34,15 @@ public class Gaulois {
 				+ ", effetPotion=" + effetPotion + "]";
 	}
 	
+	public void boirePotion(int forcePotion) {
+		effetPotion = forcePotion;
+		if (effetPotion == 3) {
+		parler("Merci Druide, je sens que ma force est 3 fois décuplée");
+		}
+	}
 	
 	public static void main(String[] args) {
 		Gaulois asterix = new Gaulois("Astérix", 8);
-	}
+		}
 	
 }
