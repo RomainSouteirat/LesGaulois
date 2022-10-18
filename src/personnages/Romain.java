@@ -29,8 +29,14 @@ public class Romain {
 		else {
 			parler("J'abandonne...");
 		}
+	assert (force>0);
+	
 	}
 	public static void main(String[] args) {
 		Romain minus = new Romain("Minus", 6);
+		minus.recevoirCoup(3);
+		minus.recevoirCoup(3);
+		minus.recevoirCoup(3);
+		minus.recevoirCoup(3);
 	}
 }
