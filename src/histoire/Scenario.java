@@ -14,7 +14,7 @@ public class Scenario {
 //		asterix.frapper(minus);
 //		asterix.frapper(minus);
 //		asterix.frapper(minus);
-		
+
 		Druide panoramix = new Druide("panoramix", 5, 10);
 		Gaulois astérix = new Gaulois("astérix", 9);
 		Gaulois obélix = new Gaulois("obélix", 9);

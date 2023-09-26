@@ -37,6 +37,5 @@ public class Gaulois {
 		effetPotion = forcePotion;
 		parler("Merci Druide, je sens que ma force est " + effetPotion + " fois décuplée.");
 	}
-	
 }
 
