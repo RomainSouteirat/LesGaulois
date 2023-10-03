@@ -66,7 +66,6 @@ public class Romain {
 		minus.sEquiper(Equipement.CASQUE);
 		minus.sEquiper(Equipement.BOUCLIER);
 		minus.sEquiper(Equipement.BOUCLIER);
-		minus.sEquiper(Equipement.CASQUE);
 	}
 }
 
